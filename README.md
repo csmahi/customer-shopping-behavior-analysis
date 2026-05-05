@@ -112,7 +112,7 @@ ORDER BY total_revenue DESC;
 [📄 SQL Queries](https://github.com/csmahi/customer-shopping-behavior-analysis/blob/main/sql_queries.sql)
 
 ## 📊 Customer Behavior Analysis Dashboard
-![Dashboard](https://github.com/csmahi/customer-shopping-behavior-analysis/blob/main/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/csmahi/customer-shopping-behavior-analysis/main/dashboard.png)
 
 Below is the dashboard visualizing key business insights:
 
