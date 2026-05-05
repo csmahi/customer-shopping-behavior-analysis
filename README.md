@@ -109,10 +109,10 @@ ORDER BY total_revenue DESC;
 📁 Full SQL File
 
 👉 All queries are available here:
- [Download SQL File](./sql_queries.sql)
+[Download SQL File](./files/sql_queries.sql)
 
 📊 Power BI Dashboard
-![Power BI Dashboard](./dashboard.png)
+![Power BI Dashboard](dashboard.png)
 Below is the dashboard visualizing key business insights:
 
 🔍 Key Insights
