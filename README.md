@@ -109,7 +109,8 @@ ORDER BY total_revenue DESC;
 📁 Full SQL File
 
 👉 All queries are available here:
-[📄 sql_queries.sql](sql_queries.sql)
+[📄 sql_queries.sql](customer-shopping-behavior-analysis
+/sql_queries.sql)
 
 📊 Power BI Dashboard
 ## 📊 Customer Behavior Analysis Dashboard
