@@ -112,7 +112,7 @@ ORDER BY total_revenue DESC;
 [📄 sql_queries.sql](./sql_queries.sql)
 
 📊 Power BI Dashboard
-![Dashboard](dashboard.png))
+dashboard.png
 
 Below is the dashboard visualizing key business insights:
 
