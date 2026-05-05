@@ -114,7 +114,7 @@ ORDER BY total_revenue DESC;
 📊 Power BI Dashboard
 ## 📊 Customer Behavior Analysis Dashboard
 
-![Customer Behavior Analysis Dashboard](pictures/screenshots/dashboard.png)
+![Customer Behavior Analysis Dashboard](dashboard.png)
 
 Below is the dashboard visualizing key business insights:
 
