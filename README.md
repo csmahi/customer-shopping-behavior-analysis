@@ -109,10 +109,10 @@ ORDER BY total_revenue DESC;
 📁 Full SQL File
 
 👉 All queries are available here:
-[📄 SQL Queries](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/sql_queries.sql)
+[📄 SQL Queries](https://github.com/csmahi/customer-shopping-behavior-analysis/blob/main/sql_queries.sql)
 
 ## 📊 Customer Behavior Analysis Dashboard
-![Dashboard](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/dashboard.png)
+![Dashboard](https://github.com/csmahi/customer-shopping-behavior-analysis/blob/main/dashboard.png)
 
 Below is the dashboard visualizing key business insights:
 
