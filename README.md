@@ -53,7 +53,7 @@ These insights support data-driven decision-making in marketing, sales, and cust
 - 📊 `customer_data.csv` → Dataset used for analysis  
 - 📓 `customer_analysis.ipynb` → Python notebook for data cleaning and EDA  
 - 🧾 `sql_queries.sql` → Main SQL script with all queries  
-- 📈 `dashboard_image.png` → Power BI dashboard screenshot  
+- 📈 `dashboard.png` → Power BI dashboard screenshot  
 
 ---
 
@@ -109,7 +109,7 @@ ORDER BY total_revenue DESC;
 📁 Full SQL File
 
 👉 All queries are available here:
-[📄 sql_queries.sql](./sql_queries.sql)
+[📄 sql_queries.sql](sql_queries.sql)
 
 📊 Power BI Dashboard
 ## 📊 Customer Behavior Analysis Dashboard
