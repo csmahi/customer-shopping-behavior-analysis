@@ -109,10 +109,10 @@ ORDER BY total_revenue DESC;
 📁 Full SQL File
 
 👉 All queries are available here:
-[📄 sql_queries.sql](sql_queries.sql)
+[📄 SQL Queries](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/sql_queries.sql)
 
 ## 📊 Customer Behavior Analysis Dashboard
-![Customer Behavior Analysis Dashboard](dashboard.png)
+![Dashboard](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/dashboard.png)
 
 Below is the dashboard visualizing key business insights:
 
