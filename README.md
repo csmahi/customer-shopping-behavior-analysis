@@ -1,43 +1,75 @@
-📊 Customer Shopping Behavior Analysis
-End-to-End Data Analytics Project (Python + SQL + Power BI)
-📌 Project Overview
+# 📊 Customer Shopping Behavior Analysis  
+### End-to-End Data Analytics Project (Python + SQL + Power BI)
+
+---
+
+## 📌 Project Overview
 
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
 
 The objective is to generate actionable insights into:
 
-Customer spending patterns
-Product preferences
-Customer segmentation
-Purchase frequency and retention behavior
+- Customer spending patterns  
+- Product preferences  
+- Customer segmentation  
+- Purchase frequency and retention behavior  
 
 These insights support data-driven decision-making in marketing, sales, and customer experience strategies.
 
-📂 Dataset Summary
-Total Records: 3,900
-Total Features: 18
-Key Data Categories:
-Customer Demographics: Age, Gender, Location, Subscription Status
-Purchase Information: Item Purchased, Category, Purchase Amount, Season, Size, Color
-Behavioral Metrics: Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Shipping Type, Review Rating
-🛠 Tools & Technologies
-Python: Pandas, NumPy (data cleaning and preprocessing)
-SQL: Data extraction, transformation, and analysis
-Power BI: Interactive dashboard creation and visualization
-📁 Project Files
-📊 customer_data.csv → Dataset used for analysis
-📓 customer_analysis.ipynb → Python notebook for data cleaning, EDA, and insights
-🧾 sql_queries.sql → SQL queries used for data extraction and analysis
-📈 dashboard_image.png → Power BI dashboard visualizing key metrics and trends
-🔄 Project Workflow
-Data cleaning and preprocessing using Python
-Data analysis and querying using SQL
-Data visualization and dashboard building using Power BI
-🧾 Sample SQL Queries
-1. Customer Segmentation (CTE)
+---
 
-Segments customers into New, Returning, and Loyal groups.
+## 📂 Dataset Summary
 
+- **Total Records:** 3,900  
+- **Total Features:** 18  
+
+### Key Data Categories:
+
+- **Customer Demographics:** Age, Gender, Location, Subscription Status  
+- **Purchase Information:** Item Purchased, Category, Purchase Amount, Season, Size, Color  
+- **Behavioral Metrics:** Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Shipping Type, Review Rating  
+
+---
+
+## 🧹 Data Preprocessing (Python)
+
+- Checked for missing and inconsistent values  
+- Identified **37 missing values** in the *Review Rating* column  
+- Applied category-wise median imputation  
+- Ensured clean and analysis-ready dataset  
+
+---
+
+## 🛠 Tools & Technologies
+
+- **Python:** Pandas, NumPy (data cleaning and preprocessing)  
+- **SQL:** Data extraction, transformation, and analysis  
+- **Power BI:** Dashboard creation and visualization  
+
+---
+
+## 📁 Project Files
+
+- 📊 `customer_data.csv` → Dataset used for analysis  
+- 📓 `customer_analysis.ipynb` → Python notebook for data cleaning and EDA  
+- 🧾 `sql_queries.sql` → Main SQL script with all queries  
+- 📈 `dashboard_image.png` → Power BI dashboard screenshot  
+
+---
+
+## 🔄 Project Workflow
+
+1. Data cleaning and preprocessing using Python  
+2. Data analysis using SQL queries  
+3. Dashboard creation using Power BI  
+
+---
+
+## 🧾 Sample SQL Queries
+
+### 1. Customer Segmentation (CTE)
+
+```sql
 WITH customer_type AS (
     SELECT customer_id,
            CASE 
@@ -51,10 +83,7 @@ SELECT customer_segment,
        COUNT(*) AS number_of_customers
 FROM customer_type
 GROUP BY customer_segment;
-2. Top Products per Category (Window Function)
-
-Identifies top-performing products within each category.
-
+2. Top Products per Category
 WITH item_counts AS (
     SELECT category,
            item_purchased,
@@ -70,9 +99,6 @@ SELECT category, item_purchased, total_orders
 FROM item_counts
 WHERE rank <= 3;
 3. Subscriber vs Non-Subscriber Spending
-
-Compares revenue contribution based on subscription status.
-
 SELECT subscription_status,
        COUNT(customer_id) AS total_customers,
        ROUND(AVG(purchase_amount), 2) AS avg_spend,
@@ -82,30 +108,25 @@ GROUP BY subscription_status
 ORDER BY total_revenue DESC;
 📁 Full SQL File
 
-All SQL queries are available in the repository:
-👉 sql_queries.sql
+👉 All queries are available here:
+ [Download SQL File](./sql_queries.sql)
 
-📊 Power BI Dashboard Features
-KPI Cards: Total Customers, Average Revenue, Average Rating
-Category-wise Sales Analysis
-Customer Segmentation (Loyal, Returning, New)
-Revenue Contribution by Segment
-Purchase Frequency Analysis
-Age Group Spending Trends
+📊 Power BI Dashboard
+![Power BI Dashboard](./dashboard.png)
+Below is the dashboard visualizing key business insights:
+
 🔍 Key Insights
 Clothing is the top-performing category in sales and revenue
-Loyal customers contribute the highest share of revenue
+Loyal customers contribute the highest revenue
 Frequent buyers generate significantly higher revenue
-Younger age groups tend to spend more per transaction
-Average customer rating is 3.75, indicating positive satisfaction
-Subscription users show stronger retention and repeat purchases
-📸 Dashboard Preview
-
+Younger age groups spend more per transaction
+Average rating is 3.75, indicating positive customer satisfaction
+Subscription users show stronger retention behavior
 🚀 How to Run This Project
 Clone the repository
-Run Python script for data preprocessing (if included)
-Load and execute SQL queries from sql_queries.sql
-Open Power BI file (.pbix) to explore the dashboard
+Run Python notebook for preprocessing
+Execute SQL queries from sql_queries.sql
+Open Power BI dashboard image or .pbix file
 👤 Author
 
 Your Name
