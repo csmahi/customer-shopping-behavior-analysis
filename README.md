@@ -112,7 +112,7 @@ ORDER BY total_revenue DESC;
 [📄 sql_queries.sql](./sql_queries.sql)
 
 📊 Power BI Dashboard
-![Customer Shopping Behavior Analysis](dashboard.png)
+![customer_shopping_behavior_analysis](dashboard.png)
 
 Below is the dashboard visualizing key business insights:
 
