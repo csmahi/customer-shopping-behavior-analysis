@@ -123,7 +123,7 @@ ORDER BY total_revenue DESC;
 
 ![Dashboard](full dashboard.png)
 
-![Dashboard]()
+![Dashboard](key insights.png)
 
 ![Dashboard](othermetrics.png)
 
