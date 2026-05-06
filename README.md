@@ -1,6 +1,6 @@
 # 📊 Customer Shopping Behavior Analysis  
 
-End-to-End Data Analytics Project (Python + SQL + Power BI)
+End-to-End Data Analytics Project using Python, SQL, and Power BI
 
 ---
 
@@ -41,9 +41,19 @@ These insights support data-driven decision-making in marketing, sales, and cust
 
 ## 🛠 Tools & Technologies
 
-- Python (Pandas, NumPy)  
+- Python (Pandas)  
 - SQL (Data analysis & querying)  
 - Power BI (Dashboard visualization)  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- SQL (CTEs, Window Functions, Aggregations)  
+- Data Visualization (Power BI)  
+- Business Insight Generation
 
 ---
 
@@ -56,7 +66,8 @@ These insights support data-driven decision-making in marketing, sales, and cust
 - dashboard_overview.png → Sales overview dashboard  
 - product_performance.png → Product insights  
 - customer_segmentation.png → Segmentation analysis  
-- key_insights.png → Summary insights  
+- key_insights.png → Summary insights
+  
 ---
 
 ## 🔄 Project Workflow
@@ -123,20 +134,17 @@ ORDER BY total_revenue DESC;
 
 ## 📊 Dashboard Preview
 
-## Slide 1
+### 🔹 Sales Overview
 ![Sales Overview](dashboard_overview.png)
 
-## Slide 2
+### 🔹 Product Performance
 ![Product Performance](product_performance.png)
 
-
-## Slide 3
+### 🔹 Customer Segmentation
 ![Customer Segmentation](customer_segmentation.png)
 
-
-## Slide 4
-![key insights](key_insights.png)
-
+### 🔹 Key Insights
+![Key Insights](key_insights.png)
 
 
 ## 🔍 Key Insights
@@ -149,27 +157,33 @@ ORDER BY total_revenue DESC;
 - Subscription users demonstrate stronger retention behavior
 
 
- ## 📈 Business Impact
+## 📈 Business Impact
 
 - Identified high-value customer segments driving the majority of revenue  
 - Enabled targeted marketing strategies based on customer behavior  
 - Improved understanding of purchase frequency and retention patterns  
 - Highlighted top-performing product categories for revenue optimization
+  
+
+
+## 🚀 How to Run This Project
+
+1. Clone the repository  
+2. Run the Python notebook for data preprocessing  
+3. Execute SQL queries from `sql_queries.sql`  
+4. Open the Power BI file to explore the dashboard  
 
  
-## 🧠 Skills Demonstrated
 
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- SQL (CTEs, Window Functions, Aggregations)  
-- Data Visualization (Power BI)  
-- Business Insight Generation
 
    
 
 
-👤 Author
-chandrashekar Sharma M
+---
 
-GitHub: https://github.com/csmahi
-LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/
+## 👤 Author
+
+**Chandrashekar Sharma M**
+
+- GitHub: https://github.com/csmahi  
+- LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/  
