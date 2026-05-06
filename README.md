@@ -50,11 +50,13 @@ These insights support data-driven decision-making in marketing, sales, and cust
 ## 📁 Project Files
 
 - customer_shopping_behavior.csv → Dataset  
-- pyton_sql_pbi__end_to_end project.ipynb → Python notebook  
+- python_sql_pbi_end_to_end.ipynb → Python notebook  
 - sql_queries.sql → SQL queries  
 - CustomerBehavior_Analysis_SQL_Python_PBI.pbix → Power BI file  
-- dashboard.png → Dashboard preview  
-
+- dashboard_overview.png → Sales overview dashboard  
+- product_performance.png → Product insights  
+- customer_segmentation.png → Segmentation analysis  
+- key_insights.png → Summary insights  
 ---
 
 ## 🔄 Project Workflow
@@ -136,21 +138,38 @@ ORDER BY total_revenue DESC;
 ![key insights](key_insights.png)
 
 
-🔍 Key Insights
-Clothing is the top-performing category in sales and revenue
-Loyal customers contribute the highest revenue
-Frequent buyers generate significantly higher revenue
-Younger age groups spend more per transaction
-Average rating is ~3.75 (positive satisfaction)
-Subscription users show stronger retention behavior
-🚀 How to Run This Project
-Clone the repository
-Run Python notebook for preprocessing
-Execute SQL queries from sql_queries.sql
-Open Power BI file or view dashboard image
-👤 Author
 
-csmahi
+## 🔍 Key Insights
+
+- Clothing is the top-performing category in both sales and revenue  
+- Loyal customers contribute the highest share of total revenue  
+- Frequent buyers generate significantly higher revenue than occasional buyers  
+- Younger age groups spend more per transaction  
+- Average customer rating is ~3.75, indicating overall positive satisfaction  
+- Subscription users demonstrate stronger retention behavior
+
+
+ ## 📈 Business Impact
+
+- Identified high-value customer segments driving the majority of revenue  
+- Enabled targeted marketing strategies based on customer behavior  
+- Improved understanding of purchase frequency and retention patterns  
+- Highlighted top-performing product categories for revenue optimization
+
+ 
+## 🧠 Skills Demonstrated
+
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- SQL (CTEs, Window Functions, Aggregations)  
+- Data Visualization (Power BI)  
+- Business Insight Generation
+
+   
+
+
+👤 Author
+chandrashekar Sharma M
 
 GitHub: https://github.com/csmahi
 LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/
