@@ -121,7 +121,13 @@ ORDER BY total_revenue DESC;
 
 ## 📊 Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard](fulldashboard.png)
+
+![Dashboard](keyinsihgts.png)
+
+![Dashboard](othermetrics.png)
+
+![Dashboard](category&revenue.png)
 
 🔍 Key Insights
 Clothing is the top-performing category in sales and revenue
