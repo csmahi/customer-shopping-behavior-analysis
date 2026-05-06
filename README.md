@@ -122,18 +122,18 @@ ORDER BY total_revenue DESC;
 ## 📊 Dashboard Preview
 
 ## Slide 1
-![Dashboard](dashboard_overview.png)
+![Sales Overview](dashboard_overview.png)
 
 ## Slide 2
-![Dashboard](product_performance.png)
+![Product Performance](product_performance.png)
 
 
 ## Slide 3
-![Dashboard](customer_segmentation.png)
+![Customer Segmentation](customer_segmentation.png)
 
 
 ## Slide 4
-![Dashboard](key_insights.png)
+![key insights](key_insights.png)
 
 
 🔍 Key Insights
