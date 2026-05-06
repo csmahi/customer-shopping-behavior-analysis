@@ -121,9 +121,9 @@ ORDER BY total_revenue DESC;
 
 ## 📊 Dashboard Preview
 
-![Dashboard](fulldashboard.png)
+![Dashboard](full dashboard.png)
 
-![Dashboard](keyinsihgts.png)
+![Dashboard]()
 
 ![Dashboard](othermetrics.png)
 
