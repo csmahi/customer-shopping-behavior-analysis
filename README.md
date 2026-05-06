@@ -122,7 +122,7 @@ ORDER BY total_revenue DESC;
 ## 📊 Dashboard Preview
 
 ## Slide 1
-![Dashboard](slide1.png)
+![Dashboard](full dashboard.png)
 
 ## Slide 2
 ![Dashboard](slide1.png)
