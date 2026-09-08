@@ -325,11 +325,9 @@ GROUP BY customer_segment;
 
 ```
 
-
 ## 🏆 Top Products by Category
 
 ```sql
-
 WITH item_counts AS (
     SELECT
         category,
@@ -351,8 +349,6 @@ FROM item_counts
 WHERE rank <= 3;
 
 ```
-
-
 ## ⭐ Subscriber vs. Non-Subscriber Analysis
 
 ```sql
@@ -366,109 +362,106 @@ GROUP BY subscription_status
 ORDER BY total_revenue DESC;
 
 ```
+### SQL Techniques Demonstrated
 
-SQL Techniques Demonstrated
 CTEs · CASE Statements · Window Functions · ROW_NUMBER() · GROUP BY · Aggregations · Conditional Logic
 
 # 📁 Project Files
 
 | File | Description |
 |---|---|
-| [customer_shopping_behavior.csv](./customer_shopping_behavior.csv) | Raw customer shopping dataset |
-| [customer_shopping_behavior_analysis.ipynb](./customer_shopping_behavior_analysis.ipynb) | Python data cleaning, preprocessing and EDA |
-| [sql_queries.sql](./sql_queries.sql) | SQL business analysis and customer segmentation |
-| [CustomerBehavior_Analysis_SQL_Python_PBI.pbix](./CustomerBehavior_Analysis_SQL_Python_PBI.pbix) | Interactive Power BI dashboard |
-| [dashboard_overview.png](./dashboard_overview.png) | Sales and revenue dashboard |
-| [product_performance.png](./product_performance.png) | Product and category analysis |
-| [customer_segmentation.png](./customer_segmentation.png) | Customer segmentation dashboard |
-| [key_insights.png](./key_insights.png) | Key business insights |
+| [📄 customer_shopping_behavior.csv](./customer_shopping_behavior.csv) | Raw customer shopping dataset |
+| [📓 customer_shopping_behavior_analysis.ipynb](./customer_shopping_behavior_analysis.ipynb) | Python data cleaning, preprocessing and EDA |
+| [🗄️ sql_queries.sql](./sql_queries.sql) | SQL business analysis and customer segmentation |
 
+---
 
-🚀 How to Explore the Project
-Step 1 — Dataset
-Start with:
+# 🚀 How to Explore the Project
 
-📄 customer_shopping_behavior.csv
+### Step 1 — Dataset
 
 Review the raw customer transaction data.
 
-Step 2 — Python Analysis
-Open:
+### Step 2 — Python Analysis
 
-📓 customer_shopping_behavior_analysis.ipynb
+Review the data cleaning, missing-value treatment, preprocessing, and exploratory data analysis.
 
-Review:
+### Step 3 — SQL Analysis
 
-Data cleaning
-Missing-value treatment
-Data preprocessing
-Exploratory data analysis
-Step 3 — SQL Analysis
-Open:
+Explore customer segmentation, revenue analysis, product ranking, CTEs, window functions, and aggregations.
 
-🗄️ sql_queries.sql
+### Step 4 — Power BI Dashboard
 
-Review:
+Download and open the `.pbix` file from the repository to explore the interactive Power BI dashboard.
 
-Customer segmentation
-Revenue analysis
-Product ranking
-CTEs
-Window functions
-Aggregations
-Step 4 — Power BI Dashboard
-Download and open:
 
-📊 CustomerBehavior_Analysis_SQL_Python_PBI.pbix
+---
 
-Explore the interactive dashboards and business insights.
+# 🎯 Business Value
 
-🎯 Business Value
 This project demonstrates the complete analytics process:
 
-Data → Analysis → Insight → Business Decision
+**Data → Analysis → Insight → Business Decision**
 
 The analysis provides recommendations around:
 
-Customer retention
-Customer segmentation
-Subscription conversion
-Purchase-frequency growth
-Product optimization
-Category performance
-Targeted marketing
-Customer experience
+- Customer retention
+- Customer segmentation
+- Subscription conversion
+- Purchase-frequency growth
+- Product optimization
+- Category performance
+- Targeted marketing
+- Customer experience
+
 The focus is not only on what happened, but also on what the business should do next.
 
-🧠 Skills Demonstrated
-Technical Skills
+---
+
+# 🧠 Skills Demonstrated
+
+### Technical Skills
+
 Python · Pandas · SQL · Power BI · Data Cleaning · EDA · Data Visualization · CTEs · Window Functions
 
-Analytical Skills
+### Analytical Skills
+
 Customer Segmentation · Revenue Analysis · Product Analysis · Customer Behavior Analysis · KPI Development · Data Storytelling
 
-Business Skills
+### Business Skills
+
 Customer Retention · Subscription Strategy · Marketing Prioritization · Revenue Optimization · Customer Experience
 
+---
 
-# 🔗 Connect With Me
+# 👤 Author
+
+## Chandrashekar Sharma M
+
+**Data Analyst | Python | SQL | Power BI**
+
+### 🔗 Connect With Me
 
 - 🐙 [GitHub](https://github.com/csmahi)
 - 💼 [LinkedIn](https://www.linkedin.com/in/chandrashekar-m-807267296/)
 
+---
 
-⭐ Project Summary
-Customer Shopping Behavior Analysis is an end-to-end retail analytics project demonstrating how Python, SQL and Power BI can transform transactional data into actionable business insights.
+# ⭐ Project Summary
+
+**Customer Shopping Behavior Analysis** is an end-to-end retail analytics project demonstrating how Python, SQL and Power BI can transform transactional data into actionable business insights.
 
 The project combines data analytics, visualization and business thinking to identify:
 
-High-value customers
-Revenue drivers
-Customer segments
-Purchase behavior
-Subscription opportunities
-Retention strategies
-Product and category performance
+- High-value customers
+- Revenue drivers
+- Customer segments
+- Purchase behavior
+- Subscription opportunities
+- Retention strategies
+- Product and category performance
 
 The objective is simple:
-Turn customer data into insights that help the business improve retention, engagement and revenue.
+
+> **Turn customer data into insights that help the business improve retention, engagement and revenue.**
+
