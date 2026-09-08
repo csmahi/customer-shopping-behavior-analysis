@@ -359,16 +359,18 @@ ORDER BY total_revenue DESC;
 SQL Techniques Demonstrated
 CTEs · CASE Statements · Window Functions · ROW_NUMBER() · GROUP BY · Aggregations · Conditional Logic
 
-📁 Project Files
-File	Description
-customer_shopping_behavior.csv	Raw customer shopping dataset
-customer_shopping_behavior_analysis.ipynb	Python data cleaning, preprocessing and EDA
-sql_queries.sql	SQL business analysis and customer segmentation
-CustomerBehavior_Analysis_SQL_Python_PBI.pbix	Interactive Power BI dashboard
-dashboard_overview.png	Sales and revenue dashboard
-product_performance.png	Product and category analysis
-customer_segmentation.png	Customer segmentation dashboard
-key_insights.png	Key business insights
+# 📁 Project Files
+
+| File | Description |
+|---|---|
+| [customer_shopping_behavior.csv](customer_shopping_behavior.csv) | Raw customer shopping dataset |
+| [customer_shopping_behavior_analysis.ipynb](customer_shopping_behavior_analysis.ipynb) | Python data cleaning, preprocessing and EDA |
+| [sql_queries.sql](sql_queries.sql) | SQL business analysis and customer segmentation |
+| [CustomerBehavior_Analysis_SQL_Python_PBI.pbix](CustomerBehavior_Analysis_SQL_Python_PBI.pbix) | Interactive Power BI dashboard |
+| [dashboard_overview.png](dashboard_overview.png) | Sales and revenue dashboard |
+| [product_performance.png](product_performance.png) | Product and category analysis |
+| [customer_segmentation.png](customer_segmentation.png) | Customer segmentation dashboard |
+| [key_insights.png](key_insights.png) | Key business insights |
 
 🚀 How to Explore the Project
 Step 1 — Dataset
@@ -436,13 +438,18 @@ Customer Segmentation · Revenue Analysis · Product Analysis · Customer Behavi
 Business Skills
 Customer Retention · Subscription Strategy · Marketing Prioritization · Revenue Optimization · Customer Experience
 
-👤 Author
-Chandrashekar Sharma M
-Data Analyst | Python | SQL | Power BI
+# 👤 Author
 
-Connect With Me
-🐙 GitHub: https://github.com/csmahi
-💼 LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/
+## Chandrashekar Sharma M
+
+**Data Analyst | Python | SQL | Power BI**
+
+### Connect With Me
+
+- 🐙 [GitHub](https://github.com/csmahi)
+- 💼 [LinkedIn](https://www.linkedin.com/in/chandrashekar-m-807267296/)
+
+
 ⭐ Project Summary
 Customer Shopping Behavior Analysis is an end-to-end retail analytics project demonstrating how Python, SQL and Power BI can transform transactional data into actionable business insights.
 
