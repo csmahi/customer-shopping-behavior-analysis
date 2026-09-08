@@ -159,19 +159,19 @@ The Power BI dashboard provides an interactive view of:
 
 ### 🔹 Sales Overview
 
-![Sales Overview](dashboard_overview.png)
+![Sales Overview](./dashboard_overview.png)
 
 ### 🔹 Product Performance
 
-![Product Performance](product_performance.png)
+![Product Performance](./product_performance.png)
 
 ### 🔹 Customer Segmentation
 
-![Customer Segmentation](customer_segmentation.png)
+![Customer Segmentation](./customer_segmentation.png)
 
 ### 🔹 Key Insights
 
-![Key Insights](key_insights.png)
+![Key Insights](./key_insights.png)
 
 ---
 
@@ -323,8 +323,13 @@ SELECT
 FROM customer_type
 GROUP BY customer_segment;
 
----
-🏆 Top Products by Category
+```
+
+
+## 🏆 Top Products by Category
+
+```sql
+
 WITH item_counts AS (
     SELECT
         category,
@@ -345,8 +350,12 @@ SELECT
 FROM item_counts
 WHERE rank <= 3;
 
----
-⭐ Subscriber vs. Non-Subscriber Analysis
+```
+
+
+## ⭐ Subscriber vs. Non-Subscriber Analysis
+
+```sql
 SELECT
     subscription_status,
     COUNT(customer_id) AS total_customers,
@@ -356,6 +365,8 @@ FROM customer
 GROUP BY subscription_status
 ORDER BY total_revenue DESC;
 
+```
+
 SQL Techniques Demonstrated
 CTEs · CASE Statements · Window Functions · ROW_NUMBER() · GROUP BY · Aggregations · Conditional Logic
 
@@ -363,27 +374,28 @@ CTEs · CASE Statements · Window Functions · ROW_NUMBER() · GROUP BY · Aggre
 
 | File | Description |
 |---|---|
-| [customer_shopping_behavior.csv](customer_shopping_behavior.csv) | Raw customer shopping dataset |
-| [customer_shopping_behavior_analysis.ipynb](customer_shopping_behavior_analysis.ipynb) | Python data cleaning, preprocessing and EDA |
-| [sql_queries.sql](sql_queries.sql) | SQL business analysis and customer segmentation |
-| [CustomerBehavior_Analysis_SQL_Python_PBI.pbix](CustomerBehavior_Analysis_SQL_Python_PBI.pbix) | Interactive Power BI dashboard |
-| [dashboard_overview.png](dashboard_overview.png) | Sales and revenue dashboard |
-| [product_performance.png](product_performance.png) | Product and category analysis |
-| [customer_segmentation.png](customer_segmentation.png) | Customer segmentation dashboard |
-| [key_insights.png](key_insights.png) | Key business insights |
+| [customer_shopping_behavior.csv](./customer_shopping_behavior.csv) | Raw customer shopping dataset |
+| [customer_shopping_behavior_analysis.ipynb](./customer_shopping_behavior_analysis.ipynb) | Python data cleaning, preprocessing and EDA |
+| [sql_queries.sql](./sql_queries.sql) | SQL business analysis and customer segmentation |
+| [CustomerBehavior_Analysis_SQL_Python_PBI.pbix](./CustomerBehavior_Analysis_SQL_Python_PBI.pbix) | Interactive Power BI dashboard |
+| [dashboard_overview.png](./dashboard_overview.png) | Sales and revenue dashboard |
+| [product_performance.png](./product_performance.png) | Product and category analysis |
+| [customer_segmentation.png](./customer_segmentation.png) | Customer segmentation dashboard |
+| [key_insights.png](./key_insights.png) | Key business insights |
+
 
 🚀 How to Explore the Project
 Step 1 — Dataset
 Start with:
 
-customer_shopping_behavior.csv
+📄 customer_shopping_behavior.csv
 
 Review the raw customer transaction data.
 
 Step 2 — Python Analysis
 Open:
 
-customer_shopping_behavior_analysis.ipynb
+📓 customer_shopping_behavior_analysis.ipynb
 
 Review:
 
@@ -394,7 +406,7 @@ Exploratory data analysis
 Step 3 — SQL Analysis
 Open:
 
-sql_queries.sql
+🗄️ sql_queries.sql
 
 Review:
 
@@ -405,9 +417,9 @@ CTEs
 Window functions
 Aggregations
 Step 4 — Power BI Dashboard
-Open:
+Download and open:
 
-CustomerBehavior_Analysis_SQL_Python_PBI.pbix
+📊 CustomerBehavior_Analysis_SQL_Python_PBI.pbix
 
 Explore the interactive dashboards and business insights.
 
@@ -438,19 +450,10 @@ Customer Segmentation · Revenue Analysis · Product Analysis · Customer Behavi
 Business Skills
 Customer Retention · Subscription Strategy · Marketing Prioritization · Revenue Optimization · Customer Experience
 
-# 👤 Author
 
-## Chandrashekar Sharma M
-
-**Data Analyst | Python | SQL | Power BI**
-
-### Connect With Me
-
-
-**Chandrashekar Sharma M**
-
-- GitHub: https://github.com/csmahi  
-- LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/  
+🔗 Connect With Me
+🐙 GitHub
+💼 LinkedIn
 
 ⭐ Project Summary
 Customer Shopping Behavior Analysis is an end-to-end retail analytics project demonstrating how Python, SQL and Power BI can transform transactional data into actionable business insights.
@@ -464,4 +467,6 @@ Purchase behavior
 Subscription opportunities
 Retention strategies
 Product and category performance
-The objective is simple: turn customer data into insights that help the business improve retention, engagement and revenue.
+
+The objective is simple:
+Turn customer data into insights that help the business improve retention, engagement and revenue.
