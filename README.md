@@ -1,213 +1,311 @@
-📊 Customer Shopping Behavior Analysis
-End-to-End Data Analytics Case Study | Python · SQL · Power BI
-An end-to-end retail analytics project analyzing 3,900 customer transactions across 18 fields to understand purchasing behavior, identify high-value customer segments, evaluate product performance, and generate actionable business recommendations.
+# 📊 Customer Shopping Behavior Analysis
 
-Analytics Workflow
-Raw Data → Python → SQL → Customer Segmentation → Power BI → Business Recommendations
+### End-to-End Retail Analytics Project | Python · SQL · Power BI
 
-🎯 Business Problem
-A retail business wants to better understand its customers and purchasing behavior.
+An end-to-end **retail analytics project** analyzing **3,900 customer transactions across 18 fields** to understand customer purchasing behavior, identify high-value customer segments, evaluate product performance, and generate actionable business recommendations.
 
-The analysis focuses on:
+**Analytics Workflow**
 
-Which customer segments generate the most revenue?
-Which product categories and products perform best?
-Do subscribers behave differently from non-subscribers?
-How does purchase frequency relate to revenue?
-Which customer groups should marketing prioritize?
-How can customer retention and subscription adoption be improved?
-The goal is to move beyond reporting numbers and translate analytical findings into practical business actions.
+`Raw Data → Python → SQL → Customer Segmentation → Power BI → Business Recommendations`
 
-📌 Project Objectives
-Analyze customer purchasing patterns
-Identify high-value and loyal customer segments
-Evaluate revenue contribution by customer characteristics
-Compare subscriber and non-subscriber behavior
-Identify top-performing products and categories
-Analyze purchase frequency and customer behavior
-Build an interactive Power BI dashboard
-Translate insights into actionable recommendations
-📂 Dataset Overview
-The dataset contains 3,900 customer purchase records and 18 fields.
+---
 
-Customer Information
-Age
-Gender
-Location
-Subscription Status
-Purchase Information
-Item Purchased
-Category
-Purchase Amount
-Season
-Size
-Color
-Behavioral & Transaction Metrics
-Discount Applied
-Promo Code Used
-Previous Purchases
-Frequency of Purchases
-Shipping Type
-Review Rating
-🔍 Business Questions
-The project answers:
+## 🎯 Business Problem
 
-Which customer segments contribute the most revenue?
-Which product categories generate the strongest sales?
-Which products are most frequently purchased?
-Do subscribers demonstrate stronger purchasing behavior?
-How does purchase frequency relate to revenue?
-Which customer groups should marketing prioritize?
-What opportunities exist to improve retention and subscription adoption?
-🛠️ Tools & Technologies
-Tool	Purpose
-🐍 Python / Pandas	Data cleaning, preprocessing and EDA
-🗄️ SQL	Business analysis and customer segmentation
-🔢 CTEs & Window Functions	Advanced SQL analysis
-📊 Power BI	Interactive dashboards and KPI reporting
-🐙 GitHub	Project documentation and version control
+A retail business wants to better understand **customer behavior, purchasing patterns, revenue drivers, and retention opportunities**.
 
-🔄 Analytics Workflow
-1. Data Preparation — Python
-The raw dataset was inspected and prepared for analysis.
+This project answers key business questions:
 
-Key steps included:
+- Which customer segments generate the most revenue?
+- Which product categories and products perform best?
+- Do subscribers behave differently from non-subscribers?
+- How does purchase frequency relate to revenue?
+- Which customer groups should marketing prioritize?
+- How can customer retention and subscription adoption be improved?
 
-Data quality checks
-Missing-value identification
-Data consistency checks
-Exploratory data analysis
-Feature preparation
-Review-rating imputation
-The dataset contained 37 missing values in Review Rating, which were handled using category-wise median imputation.
+The objective is to transform transactional data into **clear business insights and actionable recommendations**.
 
-2. Business Analysis — SQL
-SQL was used for business-focused analysis, including:
+---
 
-Revenue analysis
-Customer segmentation
-Purchase-frequency analysis
-Subscriber vs non-subscriber comparison
-Product ranking
-Category-level performance
-CTE-based analysis
-Window functions
-Aggregations and conditional logic
-3. Customer Segmentation
-Customers were grouped according to their previous purchasing behavior:
+## 📌 Project Objectives
 
-Segment	Definition
-New	1 previous purchase
-Returning	2–10 previous purchases
-Loyal	More than 10 previous purchases
+- Analyze customer purchasing patterns
+- Identify high-value and loyal customer segments
+- Evaluate revenue contribution by customer characteristics
+- Compare subscriber and non-subscriber behavior
+- Identify top-performing products and categories
+- Analyze purchase frequency and customer behavior
+- Build an interactive Power BI dashboard
+- Translate analytical findings into actionable business recommendations
 
-This segmentation helps distinguish customers based on their level of purchasing engagement.
+---
 
-4. Power BI Dashboard
+## 📂 Dataset Overview
+
+The dataset contains:
+
+- **3,900 customer transaction records**
+- **18 fields**
+- Customer, product, transaction, behavioral, and satisfaction attributes
+
+### 👤 Customer Information
+
+- Age
+- Gender
+- Location
+- Subscription Status
+
+### 🛍️ Purchase Information
+
+- Item Purchased
+- Category
+- Purchase Amount
+- Season
+- Size
+- Color
+
+### 📈 Behavioral & Transaction Metrics
+
+- Discount Applied
+- Promo Code Used
+- Previous Purchases
+- Frequency of Purchases
+- Shipping Type
+- Review Rating
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool / Technology | Purpose |
+|---|---|
+| 🐍 **Python / Pandas** | Data cleaning, preprocessing and exploratory data analysis |
+| 🗄️ **SQL** | Business analysis, aggregations and customer segmentation |
+| 🔢 **CTEs & Window Functions** | Advanced SQL analysis and product ranking |
+| 📊 **Power BI** | Interactive dashboards, KPIs and data visualization |
+| 🐙 **GitHub** | Project documentation and version control |
+
+---
+
+# 🔄 Analytics Workflow
+
+## 1️⃣ Data Preparation & EDA — Python
+
+The raw dataset was inspected, cleaned and prepared for analysis using Python and Pandas.
+
+### Key Activities
+
+- Data quality checks
+- Missing-value identification
+- Data consistency checks
+- Exploratory data analysis
+- Feature preparation
+- Statistical analysis
+- Review-rating imputation
+
+The dataset contained **37 missing values in `Review Rating`**.
+
+These missing values were handled using **category-wise median imputation** to preserve the rating distribution within each product category.
+
+---
+
+## 2️⃣ Business Analysis — SQL
+
+SQL was used to answer business-focused questions and generate analytical insights.
+
+### Analysis Performed
+
+- Revenue analysis
+- Customer segmentation
+- Purchase-frequency analysis
+- Subscriber vs. non-subscriber comparison
+- Product ranking
+- Category-level performance
+- Customer behavior analysis
+- Aggregations and conditional logic
+- CTE-based analysis
+- Window-function analysis
+
+---
+
+## 3️⃣ 👥 Customer Segmentation
+
+Customers were segmented based on their previous purchasing behavior.
+
+| Customer Segment | Definition |
+|---|---|
+| 🆕 **New** | 1 previous purchase |
+| 🔄 **Returning** | 2–10 previous purchases |
+| 💎 **Loyal** | More than 10 previous purchases |
+
+This segmentation helps identify different levels of customer engagement and supports **targeted marketing and retention strategies**.
+
+---
+
+# 📊 Power BI Dashboard
+
 The Power BI dashboard provides an interactive view of:
 
-Revenue performance
-Product performance
-Customer segmentation
-Subscriber vs non-subscriber behavior
-Purchase behavior
-Key business insights
-## 📊 Dashboard Preview
+- Revenue performance
+- Product performance
+- Category performance
+- Customer segmentation
+- Subscriber vs. non-subscriber behavior
+- Purchase frequency
+- Customer behavior
+- Key business insights
+
+## Dashboard Preview
 
 ### 🔹 Sales Overview
+
 ![Sales Overview](dashboard_overview.png)
 
 ### 🔹 Product Performance
+
 ![Product Performance](product_performance.png)
 
 ### 🔹 Customer Segmentation
+
 ![Customer Segmentation](customer_segmentation.png)
 
 ### 🔹 Key Insights
+
 ![Key Insights](key_insights.png)
 
+---
 
-📈 Key Findings
-👕 1. Clothing is a major revenue driver
-Finding: Clothing is the top-performing category in both sales and revenue.
+# 📈 Key Business Insights
 
-Business Interpretation: Clothing is an important revenue-generating category.
+## 1. 👕 Clothing Is a Major Revenue Driver
 
-Recommendation: Monitor demand closely and use high-performing products for promotions and cross-selling opportunities.
+**Finding:** Clothing is the top-performing category in terms of sales and revenue.
 
-💎 2. Loyal customers are the highest-value segment
-Finding: Loyal customers contribute the highest share of total revenue.
+**Business Impact:** Clothing represents an important revenue-generating category.
 
-Business Interpretation: Customers with stronger purchase histories represent an important source of recurring revenue.
+**Recommendation:**
 
-Recommendation: Prioritize retention campaigns, personalized offers, loyalty benefits, and targeted engagement.
+- Maintain strong inventory availability
+- Promote high-performing clothing products
+- Use cross-selling opportunities
+- Monitor category demand closely
 
-🔄 3. Frequent buyers generate stronger revenue
-Finding: Frequent buyers generate higher revenue than occasional buyers.
+---
 
-Business Interpretation: Purchase frequency is an important indicator of customer value.
+## 2. 💎 Loyal Customers Are the Highest-Value Segment
 
-Recommendation: Encourage returning customers to purchase more frequently through:
+**Finding:** Loyal customers contribute the highest share of total revenue.
 
-Personalized recommendations
-Repeat-purchase reminders
-Limited-time offers
-Category-based promotions
-Loyalty rewards
-Goal: Move customers from Occasional → Returning → Loyal.
+**Business Impact:** Customers with stronger purchase histories represent an important source of recurring revenue.
 
-⭐ 4. Subscription represents a retention opportunity
-Finding: Subscribers demonstrate stronger purchasing engagement.
+**Recommendation:**
 
-Business Interpretation: Subscription status appears to be associated with stronger customer engagement.
+- Prioritize loyalty campaigns
+- Provide personalized offers
+- Introduce exclusive benefits
+- Develop retention-focused campaigns
+- Monitor high-value customers for churn risk
 
-Recommendation: Prioritize high-frequency and returning customers for subscription campaigns rather than using a broad, untargeted approach.
+---
 
-👥 5. Younger customers show higher transaction spending
-Finding: Younger age groups show higher spending per transaction.
+## 3. 🔄 Purchase Frequency Is Linked to Customer Value
 
-Business Interpretation: Younger customers may represent an attractive target for higher-value campaigns.
+**Finding:** Frequent buyers generate higher revenue than occasional buyers.
 
-Recommendation: Test targeted promotions and personalized recommendations while monitoring long-term customer value.
+**Business Impact:** Purchase frequency is an important indicator of customer value.
 
-😊 6. Customer satisfaction is generally positive
-Finding: The average customer rating is approximately 3.75/5.
+**Recommendation:**
 
-Business Interpretation: Overall customer satisfaction is reasonably positive, while lower-rated products may still present improvement opportunities.
+- Use personalized recommendations
+- Send repeat-purchase reminders
+- Offer limited-time promotions
+- Introduce loyalty rewards
+- Promote relevant products based on purchase history
 
-Recommendation: Analyze lower-rated products and categories to identify potential issues affecting customer experience and repeat purchases.
+### 🎯 Business Goal
 
-💡 Business Recommendations
-1. Retain High-Value Customers
-Focus loyalty campaigns and personalized offers on loyal customers.
+Move customers through the journey:
 
-Goal: Protect recurring revenue and reduce customer churn.
+**Occasional → Returning → Loyal**
 
-2. Convert Returning Customers into Loyal Customers
-Use targeted incentives, product recommendations, and milestone-based rewards.
+---
 
-Goal: Increase repeat purchases and customer lifetime value.
+## 4. ⭐ Subscription Is a Retention Opportunity
 
-3. Increase Subscription Adoption
-Target frequent and returning customers with relevant subscription offers.
+**Finding:** Subscribers demonstrate stronger purchasing engagement.
 
-Goal: Convert engaged customers into subscribers and strengthen retention.
+**Business Impact:** Subscription status appears to be associated with stronger customer engagement.
 
-4. Protect High-Performing Categories
-Maintain availability and promote high-performing clothing products.
+**Recommendation:**
 
-Goal: Protect category revenue while increasing basket value.
+Prioritize subscription campaigns toward:
 
-5. Use Customer Behavior for Targeted Marketing
-Customer Type	Recommended Strategy
-New	Welcome campaigns and first-repeat incentives
-Returning	Personalized recommendations and targeted offers
-Loyal	Retention campaigns, loyalty rewards and exclusive benefits
+- Frequent buyers
+- Returning customers
+- Customers with strong purchase histories
+- Highly engaged customers
 
-Goal: Progressively move customers toward higher-value behavior.
+### 🎯 Business Goal
 
-🧮 SQL Analysis Examples
-Customer Segmentation
+Convert engaged customers into subscribers and strengthen long-term retention.
+
+---
+
+## 5. 👥 Younger Customers Show Higher Transaction Spending
+
+**Finding:** Younger customer groups show higher spending per transaction.
+
+**Business Impact:** Younger customers may represent an attractive audience for targeted marketing campaigns.
+
+**Recommendation:**
+
+- Test age-specific promotions
+- Personalize product recommendations
+- Develop targeted campaigns
+- Monitor long-term customer value
+
+---
+
+## 6. 😊 Customer Satisfaction Is Generally Positive
+
+**Finding:** Average customer rating is approximately **3.75 / 5**.
+
+**Business Impact:** Overall customer satisfaction is reasonably positive, while lower-rated products may present improvement opportunities.
+
+**Recommendation:**
+
+Analyze lower-rated products and categories to identify potential issues related to:
+
+- Product quality
+- Product expectations
+- Shipping experience
+- Sizing or fit
+- Overall customer experience
+
+---
+
+# 💡 Business Recommendations
+
+| Customer Segment | Recommended Strategy | Business Goal |
+|---|---|---|
+| 🆕 **New** | Welcome campaigns and first-repeat incentives | Encourage second purchase |
+| 🔄 **Returning** | Personalized recommendations and targeted offers | Increase purchase frequency |
+| 💎 **Loyal** | Loyalty rewards, exclusive offers and retention campaigns | Protect recurring revenue |
+| ⭐ **Frequent Buyers** | Subscription-focused offers | Increase subscription adoption |
+
+### Overall Customer Growth Strategy
+
+The business should aim to move customers toward higher-value behavior:
+
+**New → Returning → Loyal → Subscriber**
+
+---
+
+# 🧮 SQL Analysis Examples
+
+## Customer Segmentation
+
+```sql
 WITH customer_type AS (
     SELECT
         customer_id,
@@ -225,7 +323,8 @@ SELECT
 FROM customer_type
 GROUP BY customer_segment;
 
-Top Products by Category
+---
+🏆 Top Products by Category
 WITH item_counts AS (
     SELECT
         category,
@@ -246,7 +345,8 @@ SELECT
 FROM item_counts
 WHERE rank <= 3;
 
-Subscriber vs Non-Subscriber Analysis
+---
+⭐ Subscriber vs. Non-Subscriber Analysis
 SELECT
     subscription_status,
     COUNT(customer_id) AS total_customers,
@@ -256,18 +356,19 @@ FROM customer
 GROUP BY subscription_status
 ORDER BY total_revenue DESC;
 
-SQL techniques demonstrated: CTEs · CASE statements · Window Functions · ROW_NUMBER() · Aggregations · GROUP BY
+SQL Techniques Demonstrated
+CTEs · CASE Statements · Window Functions · ROW_NUMBER() · GROUP BY · Aggregations · Conditional Logic
 
-📊 Project Files
+📁 Project Files
 File	Description
 customer_shopping_behavior.csv	Raw customer shopping dataset
-customer_shopping_behavior_analysis.ipynb	Python analysis, data cleaning, preprocessing and EDA
+customer_shopping_behavior_analysis.ipynb	Python data cleaning, preprocessing and EDA
 sql_queries.sql	SQL business analysis and customer segmentation
 CustomerBehavior_Analysis_SQL_Python_PBI.pbix	Interactive Power BI dashboard
-dashboard_overview.png	Sales and revenue overview
-product_performance.png	Product and category performance
-customer_segmentation.png	Customer segmentation analysis
-key_insights.png	Summary of key business insights
+dashboard_overview.png	Sales and revenue dashboard
+product_performance.png	Product and category analysis
+customer_segmentation.png	Customer segmentation dashboard
+key_insights.png	Key business insights
 
 🚀 How to Explore the Project
 Step 1 — Dataset
@@ -275,51 +376,83 @@ Start with:
 
 customer_shopping_behavior.csv
 
+Review the raw customer transaction data.
+
 Step 2 — Python Analysis
 Open:
 
 customer_shopping_behavior_analysis.ipynb
 
-Review the data cleaning, preprocessing and exploratory analysis.
+Review:
 
+Data cleaning
+Missing-value treatment
+Data preprocessing
+Exploratory data analysis
 Step 3 — SQL Analysis
 Open:
 
 sql_queries.sql
 
-Review the CTEs, window functions, aggregations and customer segmentation logic.
+Review:
 
+Customer segmentation
+Revenue analysis
+Product ranking
+CTEs
+Window functions
+Aggregations
 Step 4 — Power BI Dashboard
 Open:
 
 CustomerBehavior_Analysis_SQL_Python_PBI.pbix
 
-Explore the customer, product, revenue and segmentation insights interactively.
+Explore the interactive dashboards and business insights.
 
 🎯 Business Value
-This project demonstrates how raw transactional data can be transformed into business decisions.
+This project demonstrates the complete analytics process:
 
-Data → Information → Insight → Recommendation
-The analysis focuses on:
+Data → Analysis → Insight → Business Decision
+
+The analysis provides recommendations around:
 
 Customer retention
 Customer segmentation
 Subscription conversion
 Purchase-frequency growth
-Product/category optimization
+Product optimization
+Category performance
+Targeted marketing
 Customer experience
-The key objective is not simply to report what happened, but to identify what the business should do next.
+The focus is not only on what happened, but also on what the business should do next.
 
 🧠 Skills Demonstrated
-Python · Pandas · SQL · CTEs · Window Functions · Customer Segmentation · Power BI · Data Visualization · KPI Development · Business Analysis · Data Storytelling
+Technical Skills
+Python · Pandas · SQL · Power BI · Data Cleaning · EDA · Data Visualization · CTEs · Window Functions
+
+Analytical Skills
+Customer Segmentation · Revenue Analysis · Product Analysis · Customer Behavior Analysis · KPI Development · Data Storytelling
+
+Business Skills
+Customer Retention · Subscription Strategy · Marketing Prioritization · Revenue Optimization · Customer Experience
 
 👤 Author
 Chandrashekar Sharma M
-Data Analytics | Python | SQL | Power BI
+Data Analyst | Python | SQL | Power BI
 
-GitHub: https://github.com/csmahi
-LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/
+Connect With Me
+🐙 GitHub: https://github.com/csmahi
+💼 LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/
 ⭐ Project Summary
-Customer Shopping Behavior Analysis is an end-to-end analytics project demonstrating how Python, SQL and Power BI can be used to transform customer transaction data into actionable business insights.
+Customer Shopping Behavior Analysis is an end-to-end retail analytics project demonstrating how Python, SQL and Power BI can transform transactional data into actionable business insights.
 
-The project combines technical analysis with business thinking, focusing on customer behavior, revenue drivers, segmentation, retention and data-driven recommendations.
+The project combines data analytics, visualization and business thinking to identify:
+
+High-value customers
+Revenue drivers
+Customer segments
+Purchase behavior
+Subscription opportunities
+Retention strategies
+Product and category performance
+The objective is simple: turn customer data into insights that help the business improve retention, engagement and revenue.
