@@ -3,7 +3,6 @@ End-to-End Data Analytics Case Study | Python · SQL · Power BI
 An end-to-end retail analytics project analyzing 3,900 customer transactions across 18 fields to understand purchasing behavior, identify high-value customer segments, evaluate product performance, and generate actionable business recommendations.
 
 Analytics Workflow
-
 Raw Data → Python → SQL → Customer Segmentation → Power BI → Business Recommendations
 
 🎯 Business Problem
@@ -301,7 +300,6 @@ Explore the customer, product, revenue and segmentation insights interactively.
 This project demonstrates how raw transactional data can be transformed into business decisions.
 
 Data → Information → Insight → Recommendation
-
 The analysis focuses on:
 
 Customer retention
