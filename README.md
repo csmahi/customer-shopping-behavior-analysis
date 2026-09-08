@@ -60,7 +60,7 @@ These insights support data-driven decision-making in marketing, sales, and cust
 ## 📁 Project Files
 
 - customer_shopping_behavior.csv → Dataset  
-- python_sql_pbi_end_to_end.ipynb → Python notebook  
+-customer_shopping_behavior_analysis.ipynb → Python notebook  
 - sql_queries.sql → SQL queries  
 - CustomerBehavior_Analysis_SQL_Python_PBI.pbix → Power BI file  
 - dashboard_overview.png → Sales overview dashboard  
