@@ -446,9 +446,11 @@ Customer Retention · Subscription Strategy · Marketing Prioritization · Reven
 
 ### Connect With Me
 
-- 🐙 [GitHub](https://github.com/csmahi)
-- 💼 [LinkedIn](https://www.linkedin.com/in/chandrashekar-m-807267296/)
 
+**Chandrashekar Sharma M**
+
+- GitHub: https://github.com/csmahi  
+- LinkedIn: https://www.linkedin.com/in/chandrashekar-m-807267296/  
 
 ⭐ Project Summary
 Customer Shopping Behavior Analysis is an end-to-end retail analytics project demonstrating how Python, SQL and Power BI can transform transactional data into actionable business insights.
